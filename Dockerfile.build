@@ -9,5 +9,3 @@ COPY pom.xml ./
 RUN mvn install clean --fail-never -B -DfailIfNoTests=false
 
 
-# This gets the source in place for codeship to do its thing from codeship-steps.yml
-COPY . ./
